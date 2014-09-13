@@ -9,4 +9,11 @@
 * Now import the repo into alternate namespace
 * go to server template Scripts tab, and add cookbook.
 
+* Add recipe "basic-chef::default" to metadata file
+* In recipes/default.rb add a simple package install, I chose tmux
+
+* in RS, refetch, and import.
+* on ST, you should now see default, add it to run list, and run.
+* now installs tmux
+
 There were the only steps so far and it's on the ST.  Next, set up a basic recipe
