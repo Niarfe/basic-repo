@@ -11,3 +11,10 @@ package 'tmux' do
 end
 
 include_recipe 'nodejs'
+
+
+git '/root/rs' do
+  repository 'https://Niarfe@bitbucket.org/Niarfe/rs.git'
+  revision 'master'
+  action :checkout
+end
